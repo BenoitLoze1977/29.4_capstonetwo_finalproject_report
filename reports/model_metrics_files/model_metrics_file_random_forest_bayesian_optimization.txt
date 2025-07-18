@@ -1,0 +1,32 @@
+Model: random forest
+Research Method: bayesian optimization
+F1 Score (macro): 0.8121
+Precision Score (macro): 0.7925
+Recall Score (macro): 0.8386
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.73      0.73      0.73        30
+           2       0.97      0.97      0.97       120
+           3       0.42      0.49      0.45      1753
+           4       0.97      0.94      0.95       400
+           5       0.62      0.87      0.72        15
+           6       0.83      0.95      0.88        75
+           7       0.84      0.80      0.82        70
+           8       0.97      0.96      0.97     30475
+
+    accuracy                           0.94     32938
+   macro avg       0.79      0.84      0.81     32938
+weighted avg       0.94      0.94      0.94     32938
+
+
+Confusion Matrix:
+  22  1  0  0  0  0  0  7
+  1  117  0  0  0  0  0  2
+  5  3  851  0  0  1  0  893
+  0  0  0  376  4  9  10  1
+  0  0  1  0  13  0  0  1
+  0  0  2  2  0  71  0  0
+  0  0  1  9  3  0  56  1
+  2  0  1169  1  1  5  1  29296

@@ -1,0 +1,32 @@
+Model: random forest
+Research Method: randomized search
+F1 Score (macro): 0.8135
+Precision Score (macro): 0.7665
+Recall Score (macro): 0.8804
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.72      0.77      0.74        30
+           2       0.90      0.98      0.94       120
+           3       0.37      0.60      0.46      1753
+           4       0.99      0.91      0.95       400
+           5       0.64      0.93      0.76        15
+           6       0.77      0.99      0.87        75
+           7       0.76      0.93      0.84        70
+           8       0.98      0.94      0.96     30475
+
+    accuracy                           0.92     32938
+   macro avg       0.77      0.88      0.81     32938
+weighted avg       0.94      0.92      0.93     32938
+
+
+Confusion Matrix:
+  23  1  1  0  0  0  0  5
+  1  118  0  0  0  0  0  1
+  5  7  1044  0  1  1  0  695
+  0  0  0  363  4  14  18  1
+  0  0  0  0  14  0  0  1
+  0  0  0  1  0  74  0  0
+  0  0  0  2  2  0  65  1
+  3  5  1756  0  1  7  2  28701
